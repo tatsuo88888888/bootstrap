@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HxH world</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+ <div class="text-bg-dark p-3"> 
+
+<!-- Navbar start -->
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HxH world</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">О хантере</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#button-look">Смотреть аниме</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Персонажи
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#gon">Гон</a></li>
+              <li><a class="dropdown-item" href="#gon">Килуа</a></li>
+              <li><a class="dropdown-item" href="#gon">Хисока</a></li>
+              <li><a class="dropdown-item" href="#gon">И т.д.</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#gon">Все персонажи</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Приятного времяпровождения :) </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- Navbar end -->
+
+
+<br>
+<div class=" text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between mt-5">
+        <div>
+          <h1>
+            HanterXHanter
+          </h1>
+          <p class="lead my-4">
+            Hunter × Hunter (яп. ハンター×ハンター ханта: ханта:, Охотник на Охотника) — манга Ёсихиро Тогаси. Манга выходит с 8 марта 1998 года в журнале Weekly Shonen Jump, хотя с 2006 года выход часто прерывался на долгие сроки. На начало 2022 года вышло 390 глав и 37 томов. 
+            <br>
+            Главный герой манги, Гон Фрикс, узнаёт, что его давно пропавший без вести отец жив и является одним из самых могущественных Охотников мира. Чтобы найти своего отца, Гон решает пройти экзамен и сам стать Охотником. Во время своих путешествий Гон заводит новых друзей и сталкивается с ужасными врагами.
+          </p>
+        </div>
+        <img
+          src="https://images.gr-assets.com/authors/1585242545p8/243395.jpg"
+          alt="error"
+          class="w-50 d-none d-md-block"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Важная информация
+  </button>
+  
+  <!-- Модальное окно -->
+  <div class="d-flex justify-content-center">
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">О продолжении выпуска аниме</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+            Возможно, что продолжение аниме выйдет в 2022 году. Ждем долгожданный выпуск 7го сезона ;)
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-primary">Понял</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Модальное окно конец -->
+
+<br>
+<br>
+<!-- Карусель начало -->
+<div class="d-flex justify-content-center">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.ytimg.com/vi/Of9u19T6WEs/maxresdefault.jpg"  class="h-500px d-inline-block" style="width: 800px;" alt="error">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Удивительный мир аниме HxH</h5>
+          <p>Захватывающий сюжет</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ytimg.com/vi/FiKb0hiyTvw/maxresdefault.jpg" class="h-500px d-inline-block" style="width: 800px;" alt="error">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Удивительный мир аниме HxH</h5>
+          <p>Эпичные сражения</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ytimg.com/vi/W9CT24MTlkM/maxresdefault.jpg" class="h-500px d-inline-block" style="width: 800px;" alt="error">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Удивительный мир аниме HxH</h5>
+          <p>Потрясающие персонажи</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Предыдущий</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Следующий</span>
+    </button>
+  </div>
+</div>
+<!-- Карусель конец -->
+
+<br>
+<br>
+<h2>Персонажи</h2>
+<br>
+<!-- Cards -->
+<div class="text-success p-3">
+<div id="gon" class="container">
+    <div class="row">
+
+        <div class="col-3">
+            <div class="card">
+                <img src="https://img.wattpad.com/9aceb6af98943a4823019bed84f7b27eb716e8c7/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4c6d364b7159537a636e7a3138413d3d2d3938303938303138352e313634373237343532376337303364323137383835333631303738322e6a7067" class="card-img-top" alt="error">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Гон Фрикс</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum vitae magnam reprehenderit natus pariatur architecto eum aspernatur, repellat magni, voluptas ut. Sint quos nostrum ad obcaecati nam enim incidunt!</p>
+                  <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+              </div>
+          </div>
+    
+          <div class="col-3">
+            <div class="card">
+                <img src="https://i1.sndcdn.com/artworks-PRecS0pA8T6BkziC-NNxCjg-t500x500.jpg" class="card-img-top" alt="error">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Хисока</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam id saepe nesciunt recusandae aut molestiae sint quasi distinctio voluptatum explicabo! Repellat, eaque est vero perferendis rem maxime ipsam pariatur quam?</p>
+                  <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+              </div>
+          </div>
+    
+          <div class="col-3">
+            <div class="card">
+                <img src="https://d.wattpad.com/story_parts/917259176/images/161fd895ea31e85e653554801343.jpg" class="card-img-top" alt="error">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Килуа Золдик</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto vero ullam, eos reprehenderit atque accusamus error ut cupiditate expedita iure tempore facere, fugit facilis et. Deleniti quo accusamus unde dolores.</p>
+                  <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card">
+                <img src="https://img.wattpad.com/9aceb6af98943a4823019bed84f7b27eb716e8c7/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4c6d364b7159537a636e7a3138413d3d2d3938303938303138352e313634373237343532376337303364323137383835333631303738322e6a7067" class="card-img-top" alt="error">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Гон Фрикс</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum vitae magnam reprehenderit natus pariatur architecto eum aspernatur, repellat magni, voluptas ut. Sint quos nostrum ad obcaecati nam enim incidunt!</p>
+                  <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+              </div>
+            </div>
+    </div>
+  </div>
+</div>
+<!-- Cards end-->
+
+<br>
+<div class="d-flex justify-content-center">
+<button
+id="button-look"            
+class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#signup"
+          >
+            Смотреть аниме
+          </button>
+<button
+                    
+          class="btn btn-primary btn-lg"
+                      data-bs-toggle="modal"
+                      data-bs-target="#signup"
+                    >
+                      Персонажи
+                    </button>
+</div>
+
+<br>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://ru-ru.facebook.com/" role="button"
+          >Facebook<i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+          >Instagram<i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.ru/" role="button"
+          >Google<i class="fab fa-google"></i
+        ></a>
+  
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Получайте рассылку с новостями</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Введите Email</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Отправить
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Все самое интересное о HxH
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Персонажи</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Гон</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Килуа</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Хисока</a>
+              </li>
+              <li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Персонажи</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Гон</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Килуа</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Хисока</a>
+              </li>
+              <li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Персонажи</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Гон</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Килуа</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Хисока</a>
+              </li>
+              <li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+           <!--Grid column-->
+           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Персонажи</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Гон</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Килуа</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Хисока</a>
+              </li>
+              <li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Makers
+      <a class="text-white" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</div>
+</body>
+</html>
